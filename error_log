@@ -1,0 +1,11 @@
+[19-Sep-2025 15:35:25 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/masacxpy/parking.masagital.com/src/views/manager_daily_report.php on line 4
+[19-Sep-2025 15:35:25 UTC] PHP Fatal error:  Cannot declare class Database, because the name is already in use in /home/masacxpy/parking.masagital.com/src/db_connect.php on line 16
+[19-Sep-2025 15:47:24 UTC] PHP Warning:  Undefined variable $conn in /home/masacxpy/parking.masagital.com/src/process_momo_payment.php on line 75
+[19-Sep-2025 15:47:24 UTC] PHP Fatal error:  Uncaught Error: Call to a member function beginTransaction() on null in /home/masacxpy/parking.masagital.com/src/process_momo_payment.php:75
+Stack trace:
+#0 {main}
+  thrown in /home/masacxpy/parking.masagital.com/src/process_momo_payment.php on line 75
+[19-Sep-2025 15:49:49 UTC] PHP Warning:  Attempt to read property "access" on null in /home/masacxpy/parking.masagital.com/src/vendor/quarksgroup/paypack-php/src/Util/HttpClient.php on line 141
+[19-Sep-2025 15:49:49 UTC] PHP Warning:  Attempt to read property "refresh" on null in /home/masacxpy/parking.masagital.com/src/vendor/quarksgroup/paypack-php/src/Util/HttpClient.php on line 142
+[19-Sep-2025 15:51:40 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/masacxpy/parking.masagital.com/src/views/manager_daily_report.php on line 4
+[19-Sep-2025 15:53:56 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/masacxpy/parking.masagital.com/src/views/manager_daily_report.php on line 4
